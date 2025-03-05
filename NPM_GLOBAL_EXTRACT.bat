@@ -11,8 +11,8 @@ pause > nul
 echo "---------- GLOBAL_EXTRACT ----------"
 echo "正在提取中..."
 
-npm list -g --depth=0 --json > package.json
-npm install -g package.json --online --cache=.\wheels
+call npm list -g --depth=0 --json > package.json
+call npm install -g package.json --online --cache=.\wheels
 
 echo "---------- GLOBAL_FINISHED ----------"
 echo "提取产物：package.json + wheels文件夹"

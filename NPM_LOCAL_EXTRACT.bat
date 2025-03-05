@@ -12,7 +12,7 @@ echo "---------- LOCAL_EXTRACT ----------"
 echo "正在提取中..."
 
 rmdir /S /Q .\node_modules
-npm install --online --cache=.\wheels
+call npm install --online --cache=.\wheels
 
 echo "---------- LOCAL_FINISHED ----------"
 echo "提取产物：wheels文件夹"

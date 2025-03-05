@@ -12,7 +12,7 @@ pause > nul
 echo "---------- LOCAL_REBUILD ----------"
 echo "正在重建中..."
 
-npm install --offline --cache=.\wheels
+call npm install --offline --cache=.\wheels
 
 echo "---------- LOCAL_REBUILD ----------"
 echo "重建完成，建好的环境路径为：./node_modules/"

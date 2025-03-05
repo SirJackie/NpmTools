@@ -12,7 +12,7 @@ pause > nul
 echo "---------- GLOBAL_REBUILD ----------"
 echo "正在重建中..."
 
-npm install -g package.json --offline --cache=.\wheels
+call npm install -g package.json --offline --cache=.\wheels
 
 echo "---------- GLOBAL_FINISHED ----------"
 echo "重建全局Node.js环境完成"
