@@ -15,6 +15,11 @@ A Npm Offline Packages Management Toolset.
 - `NPM_LOCAL_EXTRACT.bat`：提取Npm**工程**环境的全量安装包
 - `NPM_LOCAL_REBUILD.bat`：使用全量安装包，重建Npm**工程**环境
 - `NPM_LOCAL_DESTROY.bat`：销毁当前目录下Npm工程环境
-- `NPM_GLOBAL_EXTRACT.bat`：提取Npm**全局**环境的全量安装包
-- `NPM_GLOBAL_REBUILD.bat`：使用全量安装包，重建Npm**全局**环境
+- `NPM_GLOBAL_EXTRACT_SINGLE.bat`：提取**单个**Npm**全局**包的全量安装包
+- `NPM_GLOBAL_REBUILD_SINGLE.bat`：使用全量安装包，重建**单个**Npm**全局**包
+
+## 尚未实现
+
+- `NPM_GLOBAL_EXTRACT.bat`：提取Npm**全局**环境的全量安装包（由于Npm机制限制，无法工作）
+- `NPM_GLOBAL_REBUILD.bat`：使用全量安装包，重建Npm**全局**环境（由于Npm机制限制，无法工作）
 
