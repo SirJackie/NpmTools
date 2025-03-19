@@ -11,6 +11,7 @@ pause > nul
 echo "---------- LOCAL_EXTRACT ----------"
 echo "正在提取中..."
 
+del /F package-lock.json
 rmdir /S /Q .\node_modules
 call npm install --online --cache=.\wheels
 

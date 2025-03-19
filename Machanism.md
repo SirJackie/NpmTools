@@ -10,6 +10,8 @@ npm list --depth=0 --json > package.json
 
 ### 2. 下载离线安装包
 
+> 注意！下载离线安装包之前，**必须先删除 `package-lock.json`**，否则提取缺失不齐全！
+
 1. 确保目录下存在 `package.json`
 2. 删除目录中的 `node_modules` 文件夹
 3. 执行命令（含义：根据 `package.json` 重建 `node_modules`，同时缓存到 `wheels` 中）：
